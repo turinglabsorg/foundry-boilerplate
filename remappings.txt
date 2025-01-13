@@ -1,2 +1,4 @@
 @openzeppelin-contracts-5.2.0/=dependencies/@openzeppelin-contracts-5.2.0/
+@openzeppelin/contracts-upgradeable/=dependencies/openzeppelin-contracts-upgradeable/contracts/
+@openzeppelin/contracts/=dependencies/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/
 forge-std-1.9.5/=dependencies/forge-std-1.9.5/
