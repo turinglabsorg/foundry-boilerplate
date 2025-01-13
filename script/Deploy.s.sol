@@ -15,10 +15,7 @@ contract DeployScript is Script {
         address proxy = Upgrades.deployTransparentProxy(
             "HelloWorld.sol",
             vm.addr(deployerPrivateKey),
-            abi.encodeCall(
-                HelloWorld.initialize,
-                ("Hello World!")
-            )
+            ""
         );
         console.log("Proxy deployed at:", proxy);
 
